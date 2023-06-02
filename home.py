@@ -1,7 +1,7 @@
 import streamlit as st 
 from PIL import Image
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 def bmi_range(bmi):
     if bmi>= 25:
