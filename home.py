@@ -1,4 +1,5 @@
 import streamlit as st 
+from PIL import Image
 
 def bmi_range(bmi):
     if bmi>= 25:
@@ -30,6 +31,8 @@ if st.button('계산'):
     bmi_range(bmi)
     
     
+image = Image.open('vegetables.jpg')
 
+st.image(image, caption='eat a lot of vegetables!')
     
 
