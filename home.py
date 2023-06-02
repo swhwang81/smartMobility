@@ -47,7 +47,7 @@ elif selected == '갭마인더':
 
     st.write('파일 읽어오기 ')
 
-    data = pd.read_excel('gapminder.xlsx')
+    data = pd.read_csv('gapminder.csv')
 
     #st.write(data)
 
